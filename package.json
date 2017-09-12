@@ -1,0 +1,32 @@
+{
+  "name": "reduxbot",
+  "version": "1.0.0",
+  "description": "redux powered slack bot",
+  "main": "server.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krewllobster/reduxBot.git"
+  },
+  "keywords": [
+    "slack",
+    "redux",
+    "bot"
+  ],
+  "author": "krewllobster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krewllobster/reduxBot/issues"
+  },
+  "homepage": "https://github.com/krewllobster/reduxBot#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  },
+  "dependencies": {
+    "slack-redux-store": "^0.6.9"
+  }
+}
